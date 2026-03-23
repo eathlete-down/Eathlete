@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eathlete - Download App</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+}
+
+.logo {
+    width: 80px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+}
+
+.tagline {
+    color: #94a3b8;
+}
+
+.container {
+    margin-top: 60px;
+}
+
+.download-btn {
+    background: #22c55e;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.download-btn:hover {
+    background: #16a34a;
+    transform: scale(1.05);
+}
+
+.features {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 15px;
+    width: 250px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+footer {
+    margin-top: 60px;
+    padding: 20px;
+    font-size: 14px;
+    color: #94a3b8;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <!-- Replace logo.png with your logo -->
+    <img src="logo.png" class="logo">
+    <h1>Eathlete</h1>
+    <p class="tagline">Join tournaments. Compete. Win rewards.</p>
+</header>
+
+<div class="container">
+    <h2>Download Our App</h2>
+    <p>Play tournaments and win real prizes now!</p>
+
+    <!-- Replace link with your APK -->
+    <a href="your-app.apk" download>
+        <button class="download-btn">⬇ Download Now</button>
+    </a>
+</div>
+
+<div class="features">
+    <div class="card">
+        <h3>🏆 Daily Tournaments</h3>
+        <p>Play every day and win exciting rewards.</p>
+    </div>
+
+    <div class="card">
+        <h3>⚡ Fast Matches</h3>
+        <p>Quick matchmaking and smooth gameplay.</p>
+    </div>
+
+    <div class="card">
+        <h3>💰 Real Rewards</h3>
+        <p>Earn money and prizes easily.</p>
+    </div>
+</div>
+
+<footer>
+    © 2026 Eathlete | All Rights Reserved
+</footer>
+
+</body>
+</html>
